@@ -1,3 +1,4 @@
 #!/bin/bash
-service nginx restart
+systemctl php-fpm restart
+systemctl nginx restart
 
