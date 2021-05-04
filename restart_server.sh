@@ -1,3 +1,3 @@
 #!/bin/bash
-systemctl php-fpm start 
-systemctl nginx start
+service php-fpm restart && service nginx restart
+php bin/console cache:clear
